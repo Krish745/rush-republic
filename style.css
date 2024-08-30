@@ -1,0 +1,1234 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nanum+Gothic&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #000000; */
+    font-family: "Roboto Condensed", Sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #660600;
+    --darkColor: #330300;
+    --lightColor: #ff0f00;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Raleway", sans-serif;
+}
+
+/* Default code Ends here */
+
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 1rem 0;
+}
+
+/* project standard classes Ends */
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dflex-col-start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.dflex-col-just-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+.dflex-start {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+}
+
+.dflexaround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+/*::: HEADER CODE STARTS HERE::: */
+.navContainer {
+    background-color: #ffffff;
+}
+
+.navBar {
+    background-color: #ffffff;
+}
+
+.navBody {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.navLogo {
+    background-color: #ffffff;
+
+}
+
+.navLogo img {
+    margin-right: 20rem;
+}
+
+.text {
+    justify-content: flex-end;
+    /* padding-right: 10rem; */
+    justify-content: space-around;
+    padding: 0rem 10rem 0rem 30rem;
+}
+
+.text li {
+    list-style-type: none;
+    padding: 0 1rem;
+    
+
+}
+
+.text a {
+    text-decoration: none;
+    font-size: 14.5px;
+    font-weight: bold;
+    color: #0a0a0a;
+    font-family: "Open Sans", Sans-serif;
+    font-style: normal;
+    
+    
+}
+.text li a:hover {
+    color: #ff0f00;
+}
+
+
+
+/* .heroContainer {
+    background-color: #be9c79;
+} */
+.heroSection {
+    /* background-color: #ff0f00; */
+    background-image: url(./assets/images/download.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.heroBody {
+    /* background-color: aqua; */
+    /* padding-ri ght: 50rem; */
+    padding: 18rem;
+}
+
+.heroJumbotron h1 {
+    color: #ffffff;
+    margin-left: 5rem;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: "Roboto Condensed", Sans-serif;
+    margin-bottom: 1rem;
+    width: 60%;
+    text-align: center;
+}
+
+.heroJumbotron p {
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-size: 36px;
+    width: 70%;
+    font-family: "Open Sans", Sans-serif;
+    text-align: center;
+    /* margin: 0px 0px 31px; */
+}
+
+/*::: HEADER CODE Ends HERE::: */
+
+/*::: Main CODE Starts HERE::: */
+.brandingContainer {
+    background-color: #ffffff;
+    /* padding: 2rem; */
+}
+
+.branding {
+    background-color: #ffffff;
+}
+
+.brandingBody {
+    background-color: #ffffff;
+}
+
+.brandingTitle {
+    background-color: #ffffff;
+    padding-bottom: 2rem;
+}
+
+.brandingTitle h2 {
+    color: #D83174;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin-top: 3rem;
+}
+
+.digitalBody {
+    background-color: #ffffff;
+}
+
+.digitalText {
+    background-color: #ffffff;
+    padding-bottom: 2rem;
+}
+
+.digitalText p {
+    background-color: #ffffff;
+    text-align-last: center ;
+    font-family: "Open Sans", Sans-serif; 
+    font-size: 16.1px;
+    margin-top: 1rem;
+    text-align: justify;
+    
+}
+
+.agency p {
+    font-size: 16px;
+    font-family: "Open Sans", Sans-serif; 
+    font-weight: 500;
+    margin-top: 3rem;
+    text-align: justify;
+    
+    
+}
+
+.marketingBody {
+    background-color: #ffffff;
+}
+
+.marketingTopic {
+    /* background-color: #ffffff; */
+    padding-bottom: 6rem;
+    padding: 2rem;
+}
+
+.marketingTopic button {
+    background-color: #ffffff;
+    padding: 1.2rem 3rem 1.2rem 3rem;
+    border-radius: 25px;
+    border-color: #ff0f00;
+
+
+}
+
+.marketingTopic button:hover {
+    background-color: #ff0000;
+    /* color: #ff0f00; */
+}
+.marketingTopic button:hover a{
+    color: white;
+}
+
+.marketingTopic a {
+    color: #ff0f00;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    font-size: "Open Sans",;
+}
+
+/* .teamContainer {
+    /* background-color: #be9c79; */
+
+.team {
+    /* background-color: #D83174; */
+    background-image: url(./assets/images/SERVICE.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* .teamBody {
+    /* background-color: #ff0000; */
+/* padding: 2rem; */
+
+.teamTitle {
+    /* background-color: aqua; */
+    padding-top: 2rem;
+}
+
+.teamTitle h2 {
+    /* background-color: #ffffff; */
+    font-size: 34px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    
+}
+.border {
+    border: solid 1px var(--lightColor);
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.cardBody {
+
+    padding-top: 5rem;
+    padding: 4rem;
+}
+
+.cardBody {
+    width: 75%;
+    /* margin: 0 18rem; */
+    margin: auto;
+}
+
+.teamCardHeader img {
+    background-color: #ffffff;
+
+}
+
+.teamcardbody1 {
+    background-color: #ffffff;
+    width: 90%;
+}
+
+.teamcardbody1 h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", Sans-serif;
+    margin-top: 1.3rem;
+    
+}
+
+.teamcardbody1 h5 {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Open Sans", Sans-serif;
+    /* padding-top: 1rem; */
+}
+
+.teamcardbody1 p {
+    font-size: 16px;
+    font-family: "Open Sans",;
+    margin-left: 2rem;
+    padding-bottom: 3.3rem;
+    width: 83%;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.teamcardbody2 {
+    background-color: #ffffff;
+    width: 90%;
+}
+
+.teamcardbody2 h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", Sans-serif;
+    padding-top: 1.3rem;
+}
+
+.teamcardbody2 h5 {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Open Sans", Sans-serif;
+
+}
+
+.teamcardbody2 p {
+    font-size: 16px;
+    font-family: "Open Sans",;
+    padding-bottom: 3.3rem;
+    width: 85%;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.teamcardbody3 {
+    background-color: #ffffff;
+    width: 90%;
+}
+
+.teamcardbody3 h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", Sans-serif;
+    padding-top: 1.3rem;
+}
+
+.teamcardbody3 h5 {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Open Sans", Sans-serif;
+    /* padding-top: 1rem; */
+}
+
+.teamcardbody3 p {
+    font-size: 16px;
+    font-family: "Open Sans",;
+    padding-top: 2.3rem;
+    padding-bottom: 3rem;
+    /* margin-left: 2rem; */
+    width: 88%;
+    font-weight: 400;
+}
+
+.clientsContainer {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+
+}
+
+.clients {
+    background-color: #ffffff;
+    /* padding: 10rem; */
+}
+
+.clientsBody {
+    background-color: #ffffff;
+    padding-bottom: 4rem;
+
+}
+
+.clientsTitle {
+    background-color: #ffffff;
+    padding-top: 2rem;
+}
+
+.clientsTitle h2 {
+    background-color: #ffffff;
+    font-size: 34px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    
+}
+
+.ourBody {
+    background-color: #000000;
+    padding: 1rem 1rem 1rem 5rem;
+}
+
+.sponsor1 {
+    background-color: #000000;
+
+}
+
+.satisfiedContainer {
+    background-color: #ffffff;
+    /* padding: 3rem; */
+}
+
+.satisfied {
+    background-color: #ffffff;
+}
+
+.stisfiedBody {
+    background-color: #ffffff;
+    /* padding-top: 2rem; */
+}
+
+.heading {
+    background-color: #ffffff;
+}
+
+.heading h2 {
+    color: #000000;
+    font-size: 34px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin-top: 7rem;
+}
+
+.hearBody {
+    background-color: #ffffff;
+    padding-top: 4rem;
+}
+
+.hearText {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hearText p {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans",;
+    padding-left: 3rem;
+    line-height: 1.6em;
+    /* width: 75%; */
+}
+
+.hearText h3 {
+    color: #D83174;
+    font-size: 16px;
+    /* font-family: "Open Sans"; */
+    padding-left: 2rem;
+    /* padding-top: 2rem; */
+}
+
+.hearText h5 {
+    color: #ffffff;
+    font-size: 13.6px;
+    font-family: "Open Sans";
+    padding-left: 2rem;
+    /* padding-top: 2rem; */
+}
+
+.hearText img {
+    background-color: #ffffff;
+    height: 8rem;
+    margin-top: 2rem;
+}    
+
+.hear {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hear p {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans", ;
+    line-height: 1.6em;
+   word-spacing: 1px;
+}
+.para2 {
+    margin-right: 6rem;
+    margin-top: 2rem;
+}
+.para2 h3{
+    color: #D83174;
+    font-size: 20px;
+    /* font-family: "Open Sans"; */
+    font-weight: 700;
+}
+.para2 h4 {
+    font-size: 13.6px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.hear h3 {
+    font-size: 16px;
+    /* width: 40%; */
+    /* margin: 0 1rem; */
+    font-weight: 700;
+}
+
+.hear img {
+    background-color: #ffffff;
+    height: 6rem;
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+.hearTitle {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hearTitle p {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Open Sans",;
+    line-height: 1.6em;
+   word-spacing: 1px;
+}
+
+.hearTitle h4 {
+    font-size: 16px;
+    /* width: 60%; */
+    /* margin: 0 1rem; */
+    color: #D83174;
+    font-family: "Open Sans",;
+    
+}
+.para3 h3 {
+    font-size: 13.6px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.hearTitle img {
+    background-color: #ffffff;
+    height: 8.5rem;
+    margin: 0 1rem;
+    margin-top: 1rem;
+}
+
+.chooseContainer {
+    background-color: #ffffff;
+    /* padding-bottom: 2rem; */
+}
+
+.choose {
+    background-color: #ffffff;
+    /* padding: 6rem; */
+}
+
+.chooseBody {
+    background-color: #ffffff;
+    /* padding-bottom: 2rem; */
+}
+
+.chooseTitle {
+    background-color: #ffffff;
+}
+
+.chooseTitle h2 {
+    background-color: #ffffff;
+    padding-bottom: 4rem;
+    font-size: 34px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.chooseTitle p {
+    background-color: #ffffff;
+    padding-bottom: 3rem;
+    font-size: 16.4px;
+    font-family: "Open Sans", Sans-serif;
+    left: -1px;
+}
+
+.whyBody {
+    background-color: #000000;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* .whyText1 {
+    background-color: aqua;
+} */
+.whyText1 i {
+    color: #ff0000;
+    font-size: 6rem;
+
+}
+
+.whyText1 h2 {
+    color: #ffffff;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+.whyText1 h3 {
+    color: #ffffff;
+    line-height: normal;
+    font-size: 50px;
+    font-family: "Open Sans";
+}
+
+/* .whyText2 {
+    background-color: #be9c79;
+} */
+.whyText2 i {
+    color: #ff0000;
+    font-size: 6rem;
+    /* padding-top: 2rem; */
+
+}
+
+.whyText2 h2 {
+    color: #ffffff;
+    padding-top: 1rem;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+.whyText2 h5 {
+    color: #ffffff;
+    line-height: normal;
+    font-size: 50px;
+    font-family: "Open Sans";
+
+}
+
+/* .whyText3 {
+    background-color: #24da1a;
+} */
+.whyText3 i {
+    color: #ff0000;
+    font-size: 5rem;
+    /* padding-top: 2rem; */
+}
+
+.whyText3 h2 {
+    color: #ffffff;
+    padding-top: 1rem;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+.whyText3 h4 {
+    color: #ffffff;
+    line-height: normal;
+    font-size: 50px;
+    font-family: "Open Sans";
+}
+
+/*::: Main CODE Ends HERE::: */
+
+
+/*::: Footer CODE Starts HERE::: */
+.contactContainer {
+    background-color: #000000;
+
+}
+
+.contact {
+    background-color: #000000;
+    padding: 4rem;
+}
+
+.contactBody {
+    background-color: #000000;
+    padding-left: 5rem;
+}
+
+.rush {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rush h2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto Condensed", Sans-serif;
+    /* margin-bottom: 2rem; */
+}
+
+.rush p {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans',;
+    margin-top: 3rem;
+    width: 90%;
+    line-height: 20.8px;
+    font-weight: 500;
+}
+
+.info {
+    padding-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info h3 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', ;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+.cbe i {
+    color: #ffffff;
+    font-size: 2.1rem;
+    padding-top: 1rem;
+    
+    
+}
+
+.cbe p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Open Sans', ;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+
+.hills i {
+    color: #ffffff;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.hills p {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', ;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.mail i {
+    color: #ffffff;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.mail p {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', ;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.info h2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Open Sans', ;
+    padding-top: 3rem;
+}
+
+.media {
+    gap: 1rem;
+}
+
+.media i {
+    color: #ffffff;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.contactLinks {
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contactLinks h2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Roboto Condensed", Sans-serif;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.contactLinks li {
+    /* color: #ffffff; */
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.contactLinks a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Open Sans', ;
+    padding-left: 1rem;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    display: none;
+ }
+   
+
+/*::: Footer CODE Ends HERE::: */
+
+
+@media(width <=576px) {
+    .navContainer .heroContainer .brandingContainer .teamContainer .clientsContainer .satisfiedContainer .chooseContainer .contactContainer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 576px;
+        margin: auto;
+        padding: 0 1rem;
+    }
+    .navLogo img {
+        margin-left: 2rem;
+        height: 17vh;
+    }
+    
+    .checkbtn{
+        color:rgb(221, 23, 23);
+        font-size: 25px;
+        /* margin-right: 10px; */
+        padding: 4px 5px 1px 5px;
+        /* display: none; */
+        border-radius: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        margin-left: 30px;
+    }
+    .navLink{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 135px;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+    }
+
+    .navLink li{
+        /* background-color: rgb(132, 12, 12); */
+        height: 24.5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logolink button{
+        display: none;
+    }
+
+    .navLink li:hover{
+        background-color: rgb(229, 135, 135);
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    #check:checked~.navLink {
+        display: flex;
+    }
+    .heroSection {
+        height: 70vh;
+    }
+    .heroJumbotron h1 {
+        font-size: 3.5rem;
+        line-height: 38px;
+        margin-left: 0rem;
+        font-family: "Roboto Condensed", Sans-serif;
+        margin-bottom: 2rem;
+        width: 80%;
+        text-align: center;
+        
+    }
+    .heroBody {
+        padding: 14rem 0rem 0rem 0rem;
+    }
+    
+    .heroJumbotron p {
+        font-weight: 400;
+        margin-bottom: 10rem;
+        font-size: 18.9px;
+        width: 96%;
+        font-family: "Open Sans", Sans-serif;
+        
+    }
+    .text{
+        background-color: black;
+        position: absolute;
+        top: 100px;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+    }
+    .checkbtn{
+        color:white;
+        font-size: 25px;
+        margin-left: 50px;
+        padding: 0px 0px 0px 0px;
+        display: none;
+        border-radius: 5px;
+        border: 2px solid white;
+    }
+
+    .text li{
+        background-color: rgb(132, 12, 12);
+        height: 24.5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text li:hover{
+        background-color: black;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    #check:checked~.text {
+        display: flex;
+    }
+
+    .brandingTitle h2 {
+        font-size: 2.7rem;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .digitalText p {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        font-weight: 100;
+        font-family: "Open Sans",;
+    }
+
+    .agency p {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 0;
+        padding: 0;
+        margin-top: 1rem;
+        font-family: "Open Sans",;
+    }
+    .marketingTopic button {
+        /* background-color: chartreuse; */
+        padding: 1.2rem 3rem 1.2rem 3rem;
+        border-radius: 25px;
+        border-color: #ff0f00;
+    }
+    .marketingTopic a {
+        color: #ff0f00;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 800;
+        font-size: "Open Sans",;
+    }
+
+    .cardBody {
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin: auto;
+        gap: 2rem;
+    }
+
+    .cardBody img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .teamcardbody1 {
+        width: 100%;
+    }
+
+    .teamcardbody1 p {
+        font-size: 16px;
+        margin-left: 3rem;
+    }
+
+    .teamcardbody2 {
+        width: 100%;
+    }
+
+    .teamcardbody2 p {
+        font-size: 16px;
+        font-family: "Open Sans",;
+        padding-bottom: 3.3rem;
+        width: 85%;
+        margin-top: 2rem;
+        font-weight: 500;
+    }
+
+    .teamcardbody3 {
+        width: 100%;
+    }
+
+    .teamcardbody3 p {
+        font-size: 16px;
+        font-family: "Open Sans",;
+        padding-top: 2.3rem;
+        padding-bottom: 3rem;
+        /* margin-left: 2rem; */
+        width: 88%;
+        font-weight: 400;
+    }
+
+    .ourBody {
+        grid-template-columns: 1fr;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heading h2 {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+    .hearBody {
+        grid-template-columns: 1fr;
+    }
+    .hearText p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        padding-left: 0rem;
+    }
+    .hear p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        padding-left: 0rem;
+    }
+    .hearTitle p {
+        font-size: 1.2rem;
+        font-weight: 400;
+       width: 88%;
+    }
+    .hear {
+        margin-top: 1rem;
+    }
+    .hearTitle {
+        margin-top: 1rem;
+    }
+    .whyBody {
+        grid-template-columns: 1fr;
+    }
+
+    .chooseTitle p {
+        font-size: 18px;
+    }
+    .contactBody {
+        grid-template-columns: 1fr;
+    }
+    .info h3 {
+        margin-top: 4rem;
+        /* margin-right: 5rem; */
+    }
+    .info {
+        /* margin-right: 2rem; */
+        padding-left: 0rem;
+    }
+    .cbe i {
+        font-size: 13px;
+    }
+    .cbe p {
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+
+    .hills i {
+        font-size: 13px;
+    }
+    .mail i {
+        font-size: 13px;
+    }
+    .contactLinks {
+        margin-top: 4rem;
+    }
+
+    .contactLinks a {
+        padding-left: 0rem;
+    }
+
+    .contactBody {
+        padding-left: 0rem;
+
+    }
+}
